@@ -4,6 +4,7 @@ using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 
+
 namespace TeamX.Security.Client
 {
     class Program
@@ -12,8 +13,10 @@ namespace TeamX.Security.Client
 
         private static async Task MainAsync()
         {
+            var serverClient = new HttpClient();
+
             // discover endpoints from the metadata by calling Auth server hosted on 5000 port
-            var discoveryClient = await DiscoveryClient.GetAsync("http://localhost:5000");
+            var discoveryClient = await serverClient.GetDiscoveryDocumentAsync("http://localhost:5000");
             if (discoveryClient.IsError)
             {
                 Console.WriteLine(discoveryClient.Error);
@@ -21,8 +24,24 @@ namespace TeamX.Security.Client
             }
 
             // request the token from the Auth server
-            var tokenClient = new TokenClient(discoveryClient.TokenEndpoint, "client", "secret");
-            var response = await tokenClient.RequestClientCredentialsAsync("api1");
+            //var tokenClient = new TokenClient(discoveryClient.TokenEndpoint, "client", "secret");
+
+           
+            //var response = await tokenClient.RequestClientCredentialsTokenAsync("api1");
+
+
+            var response = await serverClient.RequestClientCredentialsTokenAsync(
+                new ClientCredentialsTokenRequest
+                {
+                    Address = discoveryClient.TokenEndpoint,
+                    //GrantType = "client_credentials",
+                    ClientId = "client",
+                    ClientSecret = "secret",
+                    Scope = "api1",
+
+                });
+
+
 
             if (response.IsError)
             {
