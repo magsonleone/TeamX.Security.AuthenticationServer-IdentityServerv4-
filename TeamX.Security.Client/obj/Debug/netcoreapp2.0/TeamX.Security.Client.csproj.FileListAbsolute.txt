@@ -9,3 +9,16 @@ C:\Users\E074368\documents\visual studio 2017\Projects\TeamX.Security.Authentica
 C:\Users\E074368\documents\visual studio 2017\Projects\TeamX.Security.Authentication\TeamX.Security.Client\obj\Debug\netcoreapp2.0\TeamX.Security.Client.dll
 C:\Users\E074368\documents\visual studio 2017\Projects\TeamX.Security.Authentication\TeamX.Security.Client\obj\Debug\netcoreapp2.0\TeamX.Security.Client.pdb
 C:\Users\E074368\documents\visual studio 2017\Projects\TeamX.Security.Authentication\TeamX.Security.Client\obj\Debug\netcoreapp2.0\TeamX.Security.Client.csprojResolveAssemblyReference.cache
+C:\Users\Magson\Source\Repos\TeamX.Security.AuthenticationServer-IdentityServerv4-\TeamX.Security.Client\bin\Debug\netcoreapp2.0\TeamX.Security.Client.deps.json
+C:\Users\Magson\Source\Repos\TeamX.Security.AuthenticationServer-IdentityServerv4-\TeamX.Security.Client\bin\Debug\netcoreapp2.0\TeamX.Security.Client.runtimeconfig.json
+C:\Users\Magson\Source\Repos\TeamX.Security.AuthenticationServer-IdentityServerv4-\TeamX.Security.Client\bin\Debug\netcoreapp2.0\TeamX.Security.Client.runtimeconfig.dev.json
+C:\Users\Magson\Source\Repos\TeamX.Security.AuthenticationServer-IdentityServerv4-\TeamX.Security.Client\bin\Debug\netcoreapp2.0\TeamX.Security.Client.dll
+C:\Users\Magson\Source\Repos\TeamX.Security.AuthenticationServer-IdentityServerv4-\TeamX.Security.Client\bin\Debug\netcoreapp2.0\TeamX.Security.Client.pdb
+C:\Users\Magson\Source\Repos\TeamX.Security.AuthenticationServer-IdentityServerv4-\TeamX.Security.Client\obj\Debug\netcoreapp2.0\TeamX.Security.Client.csproj.AssemblyReference.cache
+C:\Users\Magson\Source\Repos\TeamX.Security.AuthenticationServer-IdentityServerv4-\TeamX.Security.Client\obj\Debug\netcoreapp2.0\TeamX.Security.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Magson\Source\Repos\TeamX.Security.AuthenticationServer-IdentityServerv4-\TeamX.Security.Client\obj\Debug\netcoreapp2.0\TeamX.Security.Client.AssemblyInfoInputs.cache
+C:\Users\Magson\Source\Repos\TeamX.Security.AuthenticationServer-IdentityServerv4-\TeamX.Security.Client\obj\Debug\netcoreapp2.0\TeamX.Security.Client.AssemblyInfo.cs
+C:\Users\Magson\Source\Repos\TeamX.Security.AuthenticationServer-IdentityServerv4-\TeamX.Security.Client\obj\Debug\netcoreapp2.0\TeamX.Security.Client.csproj.CoreCompileInputs.cache
+C:\Users\Magson\Source\Repos\TeamX.Security.AuthenticationServer-IdentityServerv4-\TeamX.Security.Client\obj\Debug\netcoreapp2.0\TeamX.Security.Client.dll
+C:\Users\Magson\Source\Repos\TeamX.Security.AuthenticationServer-IdentityServerv4-\TeamX.Security.Client\obj\Debug\netcoreapp2.0\TeamX.Security.Client.pdb
+C:\Users\Magson\Source\Repos\TeamX.Security.AuthenticationServer-IdentityServerv4-\TeamX.Security.Client\obj\Debug\netcoreapp2.0\TeamX.Security.Client.genruntimeconfig.cache

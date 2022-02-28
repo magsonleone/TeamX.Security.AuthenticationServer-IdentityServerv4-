@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = TeamX.Security.MVCClient
+build_property.ProjectDir = C:\Users\Magson\Source\Repos\TeamX.Security.AuthenticationServer-IdentityServerv4-\TeamX.Security.SimpleClient\
