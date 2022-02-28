@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2009
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeamX.Security.AuthServer", "TeamX.Security.AuthServer\TeamX.Security.AuthServer.csproj", "{26296110-6DB5-47A2-B8A2-96A97DA56476}"
 EndProject
@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeamX.Security.MVCClient", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeamX.Security.API", "TeamX.Security.API\TeamX.Security.API.csproj", "{EF9EB75C-C2E9-44F9-B0D8-4314D1F75C99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamX.Security.Client", "TeamX.Security.Client\TeamX.Security.Client.csproj", "{0BF922E4-FDDA-467D-AEFA-6822D4FF0C93}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeamX.Security.Client", "TeamX.Security.Client\TeamX.Security.Client.csproj", "{0BF922E4-FDDA-467D-AEFA-6822D4FF0C93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{FF736B1E-E3E8-40D2-A138-DC16B3C3DD48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{0BF922E4-FDDA-467D-AEFA-6822D4FF0C93}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BF922E4-FDDA-467D-AEFA-6822D4FF0C93}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BF922E4-FDDA-467D-AEFA-6822D4FF0C93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF736B1E-E3E8-40D2-A138-DC16B3C3DD48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF736B1E-E3E8-40D2-A138-DC16B3C3DD48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF736B1E-E3E8-40D2-A138-DC16B3C3DD48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF736B1E-E3E8-40D2-A138-DC16B3C3DD48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
